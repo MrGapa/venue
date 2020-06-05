@@ -4,7 +4,7 @@ import TImeUntil from './TimeUntil';
 
 const Featured = () => {
     return(
-        <div style={{ position:'relative'}}>
+        <div style={{ position:'relative' }}>
 
             <Carrousel />
 
@@ -13,6 +13,9 @@ const Featured = () => {
                     Pink Floyd
                 </div>
             </div>
+
+            <TImeUntil />
+            
         </div>
     )
 }
